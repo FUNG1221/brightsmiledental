@@ -1,4 +1,4 @@
-[prompt.txt](https://github.com/user-attachments/files/29328297/prompt.txt)
+[Uploading index.html…]()
 <!DOCTYPE html>
 <html lang="en">
 <head>
