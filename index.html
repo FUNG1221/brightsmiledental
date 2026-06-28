@@ -1185,6 +1185,268 @@ footer {
             padding: 0 20px 22px;
         }
     }
+
+/* ========================= */
+/* Compact Mobile One-Screen Sections */
+/* ========================= */
+@media (max-width: 700px) {
+    html {
+        scroll-padding-top: 78px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 54px 0;
+    }
+
+    .section-header {
+        margin-bottom: 28px;
+    }
+
+    .section-tag {
+        padding: 7px 14px;
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .section-header h2 {
+        font-size: clamp(30px, 9vw, 42px);
+        line-height: 1.08;
+        margin-bottom: 12px;
+    }
+
+    .section-header p {
+        font-size: 15px;
+        line-height: 1.55;
+    }
+
+    .hero {
+        min-height: calc(100vh - 78px);
+        padding: 34px 0 28px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-badge {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: clamp(34px, 10vw, 48px);
+        line-height: 0.98;
+        margin-bottom: 14px;
+    }
+
+    .hero p {
+        font-size: 15px;
+        line-height: 1.55;
+        margin-bottom: 22px;
+    }
+
+    .hero-buttons {
+        gap: 12px;
+        margin-bottom: 22px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        padding: 13px 20px;
+        font-size: 15px;
+    }
+
+    .hero-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .hero-stat {
+        padding: 14px 8px;
+        border-radius: 16px;
+    }
+
+    .hero-stat strong {
+        font-size: 22px;
+    }
+
+    .hero-stat span {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+
+    .services-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        padding-bottom: 12px;
+    }
+
+    .service-card {
+        min-width: 86%;
+        scroll-snap-align: center;
+    }
+
+    .service-card img {
+        height: 210px;
+    }
+
+    .service-content {
+        padding: 22px;
+    }
+
+    .service-content h3 {
+        font-size: 21px;
+    }
+
+    .service-content p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .gallery-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        padding-bottom: 12px;
+    }
+
+    .gallery-item,
+    .gallery-item.large {
+        min-width: 86%;
+        height: 430px;
+        grid-column: auto;
+        grid-row: auto;
+        scroll-snap-align: center;
+    }
+
+    .gallery-item img {
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .testimonials-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        padding-bottom: 12px;
+    }
+
+    .testimonial-card {
+        min-width: 86%;
+        scroll-snap-align: center;
+        padding: 24px;
+    }
+
+    .testimonial-card p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 18px;
+    }
+
+    .client img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .faq-wrapper {
+        max-height: 70vh;
+        overflow-y: auto;
+        padding-right: 4px;
+    }
+
+    .faq-question {
+        padding: 18px;
+        font-size: 15px;
+    }
+
+    .faq-answer p {
+        padding: 0 18px 18px;
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .contact-grid {
+        gap: 22px;
+    }
+
+    .contact-info {
+        gap: 12px;
+    }
+
+    .info-card {
+        padding: 16px;
+        border-radius: 18px;
+    }
+
+    .info-card i {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .map-placeholder {
+        height: 220px;
+    }
+
+    .contact-form {
+        padding: 24px;
+        height: auto;
+    }
+
+    .form-row {
+        gap: 0;
+    }
+
+    .form-group {
+        margin-bottom: 14px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+
+    .form-group textarea {
+        min-height: 120px;
+    }
+
+    .form-consent {
+        margin: 12px 0 16px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .form-note {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .footer-grid {
+        gap: 20px;
+    }
+
+    .footer-col a {
+        margin-bottom: 6px;
+    }
+
+    .call-now {
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+
+    .back-to-top {
+        width: 44px;
+        height: 44px;
+    }
+}
+
 </style>
 
 </head>
