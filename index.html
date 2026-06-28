@@ -680,8 +680,10 @@
     }
 
     .contact-info {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 18px;
+        height: 100%;
     }
 
     .info-card {
@@ -718,7 +720,8 @@
     }
 
     .map-placeholder {
-        height: 250px;
+        height: 280px;
+        margin-top: auto;
         border-radius: 22px;
         display: grid;
         place-items: center;
@@ -1145,6 +1148,11 @@ footer {
 
         .form-group textarea {
             min-height: 170px;
+        }
+
+        .map-placeholder {
+            margin-top: 0;
+            height: 240px;
         }
 
         .call-now {
