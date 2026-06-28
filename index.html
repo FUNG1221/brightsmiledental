@@ -832,7 +832,36 @@ flex-direction:column;
         margin-top: 8px;
     }
 
-    footer {
+    
+.form-consent{
+margin:18px 0 22px;
+font-size:14px;
+color:#64748b;
+line-height:1.6;
+}
+.form-consent label{
+display:flex;
+align-items:flex-start;
+gap:10px;
+cursor:pointer;
+}
+.form-consent input{
+margin-top:4px;
+accent-color:#0ea5e9;
+}
+.form-consent a{
+color:#0ea5e9;
+font-weight:700;
+}
+.form-consent a:hover{text-decoration:underline;}
+.form-note{
+margin-top:14px;
+text-align:center;
+font-size:13px;
+color:#94a3b8;
+}
+
+footer {
         background: #020617;
         color: #94a3b8;
         padding: 60px 0 28px;
@@ -1861,10 +1890,21 @@ flex-direction:column;
                         <textarea id="message" name="message" placeholder="Tell us how we can help you..."></textarea>
                     </div>
 
+                    <div class="form-consent">
+                        <label>
+                            <input type="checkbox" required>
+                            <span>I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and consent to being contacted regarding my inquiry.</span>
+                        </label>
+                    </div>
+
                     <button type="submit" class="btn">
                         <i class="fa-solid fa-paper-plane"></i>
                         Send Appointment Request
                     </button>
+
+                    <p class="form-note">
+                        Your information is secure and will never be shared with third parties.
+                    </p>
                 </form>
             </div>
         </div>
