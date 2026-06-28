@@ -1447,6 +1447,42 @@ footer {
     }
 }
 
+
+/* ========================= */
+/* Mobile Form Overflow Fix */
+/* ========================= */
+@media (max-width: 700px) {
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .form-row,
+    .form-group {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .form-group input[type="date"] {
+        display: block;
+        -webkit-appearance: none;
+        appearance: none;
+        overflow: hidden;
+    }
+}
+
 </style>
 
 </head>
